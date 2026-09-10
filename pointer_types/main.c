@@ -55,7 +55,7 @@ int ptr_arr(){                                      //this function demonstrates
     printf("Result of ptr arr: %d\n",p_arr[1][2]);
 }
 
-int arr_ptr(){
+int arr_ptr(){                                          //this function demonstrates array pointer and element accessing
     int arr[5]={12,36,54,78,95};
     int (*ptr)[5]=&arr;
     printf("Result of Array ptr: %d\n",(*ptr)[3]);
